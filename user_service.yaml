@@ -1,0 +1,14 @@
+
+
+ type: google.api.Service
+ config_version: 3
+
+ http:
+   rules:
+   - selector: user.UserService.ProfileCreate
+     post: /v1/user/profile
+     body: "*"
+
+
+
+
